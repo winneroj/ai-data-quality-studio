@@ -1,52 +1,63 @@
-# AI Data Quality Studio
+# 🧪 AI Data Quality Studio
 
-An app that automatically profiles an uploaded dataset, scores its data
-quality out of 100, explains exactly what's wrong, cleans it with one click,
-and lets you explore and export the result — all running locally, no
-account, no server, no internet required after install.
+![Python](https://img.shields.io/badge/python-3.10+-blue.svg)
+![Streamlit](https://img.shields.io/badge/built%20with-Streamlit-FF4B4B.svg)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
+![Status](https://img.shields.io/badge/status-active-brightgreen.svg)
 
-Built for a competition demo: fast to run, nothing to misconfigure.
+**Upload a messy dataset. Get a quality score, a plain-English list of
+what's wrong, a one-click fix, exploratory charts, and a trained ML model —
+all running locally in your browser, no account, no server, no internet
+required after install.**
 
-## What it does
+---
 
-1. **Upload** a CSV, Excel, TSV, or JSON file (or click "load the sample
-   messy dataset" to try it instantly).
-2. **Data Quality Report** — detects missing values, duplicate rows/columns,
-   mixed data types, outliers, invalid emails/phones/dates, whitespace and
-   casing inconsistencies, high cardinality, class imbalance, skewness, and
-   correlated/leaky columns. Produces a single 0–100 quality score.
-3. **Cleaning Engine** — one-click "auto-clean" pipeline (toggle any step
-   off if you want manual control): removes duplicates, imputes missing
-   values (median for skewed numeric columns, mean otherwise, mode for
-   categoricals), fixes mixed types, parses dates, standardizes text, and
-   caps outliers using IQR winsorization. Every change is logged in a
-   before/after audit trail.
-4. **Exploratory Analysis** — summary stats, histograms, box plots, bar
-   charts, and a correlation heatmap, generated on whichever dataset
-   (raw or cleaned) you're currently viewing.
-5. **Export** — download the result as CSV, Excel, or JSON.
+## ✨ Features
 
-## Setup
+- ✅ **Automated Data Quality Scoring** — a single 0–100 score, explained
+- ✅ **12+ issue detectors** — missing values, duplicate rows/columns,
+  mixed data types, outliers, invalid emails/phones/dates, whitespace,
+  inconsistent casing, high cardinality, class imbalance, skewness,
+  correlated/leaky columns
+- ✅ **One-click AI cleaning pipeline** — imputation, deduplication,
+  type fixing, date parsing, text normalization, outlier capping —
+  with a full before/after audit log (nothing is a black box)
+- ✅ **Exploratory Data Analysis** — summary stats, histograms, box plots,
+  bar charts, correlation heatmap
+- ✅ **Machine Learning** — auto-detects regression vs. classification,
+  trains 4 models (Linear/Logistic Regression, Decision Tree, Random
+  Forest, Gradient Boosting), ranks them, shows metrics + confusion matrix
+  or predicted-vs-actual plot
+- ✅ **Multi-format import/export** — CSV, Excel, TSV, JSON in; CSV, Excel,
+  JSON out
+- ✅ **Zero setup friction** — one Python process, no database, no auth,
+  nothing to deploy
 
-Requires Python 3.10+.
+## 📸 What it looks like
+
+| Tab | What you get |
+|---|---|
+| 📊 Data Quality Report | Score, grade, filterable issue list, column-level breakdown |
+| 🧹 Cleaning Engine | Toggle-able auto-clean pipeline + before/after comparison |
+| 🔍 Exploratory Analysis | Stats + interactive Plotly charts |
+| 🤖 Machine Learning | Auto model selection + evaluation metrics |
+| 📤 Export | Download the cleaned dataset in your format of choice |
+
+## 🚀 Quick start
 
 ```bash
-cd ai_dq_studio
+git clone https://github.com/winneroj/ai-data-quality-studio.git
+cd ai-data-quality-studio
 python -m venv venv
 source venv/bin/activate        # Windows: venv\Scripts\activate
 pip install -r requirements.txt
-```
-
-## Run
-
-```bash
 streamlit run app.py
 ```
 
-This opens the app in your browser at `http://localhost:8501`. Nothing is
-sent anywhere — the app never touches the network.
+Opens at `http://localhost:8501`. Click **"load the sample messy dataset"**
+in the sidebar for an instant demo — no file needed.
 
-## Project structure
+## 🗂 Project structure
 
 ```
 ai_dq_studio/
@@ -54,42 +65,43 @@ ai_dq_studio/
 ├── dq_studio/
 │   ├── profiler.py           # Data quality detection engine + scoring
 │   ├── cleaner.py            # Auto-clean pipeline + audit log
-│   └── eda.py                # Summary stats + Plotly charts
+│   ├── eda.py                # Summary stats + Plotly charts
+│   └── ml.py                 # Model training, evaluation, auto-selection
 ├── sample_data/
 │   └── messy_retail_data.csv # Realistic messy dataset for demos
 ├── requirements.txt
 └── README.md
 ```
 
-## Demo script (suggested)
+## 🎤 Suggested demo script
 
-1. Click "load the sample messy dataset" — instant, no upload needed.
-2. Show the **Data Quality Report** tab: point at the score (starts around
-   80/100 on the sample), scroll the issues table, expand a column's
-   details.
-3. Switch to **Cleaning Engine**, click "Run one-click auto-clean" live.
-   Score jumps to 100/100 on the sample dataset — show the before/after
-   table and the full action log as proof it's not a black box.
-4. Switch to **Exploratory Analysis** to show a chart or two on the
-   now-clean data.
-5. Export the cleaned file as CSV or Excel to close the loop.
+1. Click **"load the sample messy dataset"** — instant, no upload needed.
+2. **Data Quality Report** tab: point at the score, scroll the issues
+   table, expand a column's details.
+3. **Cleaning Engine** tab: click "Run one-click auto-clean" live. Watch
+   the score jump, show the before/after table and full action log.
+4. **Exploratory Analysis** tab: show a chart or two on the cleaned data.
+5. **Machine Learning** tab: pick a target column, click "Train models,"
+   show the model comparison table.
+6. **Export** tab: download the cleaned file to close the loop.
 
-## What's intentionally NOT in this version
+## 🛣 Roadmap
 
-This was scoped down from a much larger 24-phase spec (auth, Postgres,
-FastAPI backend, ML training, PDF/DOCX report generation, Docker, CI/CD,
-deployment) to something that's **actually solid** for a local competition
-demo under time pressure. Good next additions once the deadline passes:
+- [ ] PDF/DOCX report export (quality report + cleaning log + charts)
+- [ ] Manual column-by-column cleaning mode alongside auto-clean
+- [ ] Date-based feature engineering for the ML module
+- [ ] Optional user accounts / saved history (currently intentionally
+      out of scope — this app runs fully in-memory, single-user, by design)
 
-- ML tab: auto-detect regression/classification, train a couple of models,
-  show metrics.
-- PDF/DOCX report export summarizing the quality report + cleaning log.
-- A "manual fix" mode next to auto-clean for column-by-column control.
+## ⚠️ Known limitations
 
-## Known limitations
-
-- Correlation/leakage check only looks at numeric columns.
+- Correlation/leakage detection only considers numeric columns.
 - Categorical casing normalization is skipped for columns that look like
-  names or emails (by design, to avoid mangling real data).
-- Large files (>~200MB) may be slow since everything runs in memory.
-"# ai-data-quality-studio" 
+  names or emails, by design, to avoid mangling real data.
+- Large files (200MB+) may be slow since everything runs in memory.
+- ML module uses scikit-learn only (no XGBoost/LightGBM) to keep install
+  lightweight and dependency-free of compiled binaries.
+
+## 📄 License
+
+MIT — see [LICENSE](LICENSE).

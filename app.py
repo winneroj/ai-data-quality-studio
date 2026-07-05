@@ -15,6 +15,7 @@ import pandas as pd
 from dq_studio.profiler import profile_dataframe
 from dq_studio.cleaner import auto_clean, before_after_summary
 from dq_studio import eda
+from dq_studio import ml
 
 st.set_page_config(page_title="AI Data Quality Studio", page_icon="🧪", layout="wide")
 
@@ -66,8 +67,8 @@ if st.session_state.raw_df is None:
 
 raw_df = st.session_state.raw_df
 
-tab_quality, tab_cleaning, tab_eda, tab_export = st.tabs(
-    ["📊 Data Quality Report", "🧹 Cleaning Engine", "🔍 Exploratory Analysis", "📤 Export"]
+tab_quality, tab_cleaning, tab_eda, tab_ml, tab_export = st.tabs(
+    ["📊 Data Quality Report", "🧹 Cleaning Engine", "🔍 Exploratory Analysis", "🤖 Machine Learning", "📤 Export"]
 )
 
 # ---------- TAB 1: Data Quality Report ----------
@@ -171,7 +172,58 @@ with tab_eda:
     if corr_fig:
         st.plotly_chart(corr_fig, use_container_width=True)
 
-# ---------- TAB 4: Export ----------
+# ---------- TAB 4: Machine Learning ----------
+with tab_ml:
+    active_df = st.session_state.cleaned_df if st.session_state.cleaned_df is not None else raw_df
+    st.caption("Training on " + ("the cleaned dataset (recommended)." if st.session_state.cleaned_df is not None else "the raw dataset — clean it first for better results."))
+
+    target = st.selectbox("Choose a target column to predict", active_df.columns.tolist())
+
+    if target:
+        problem_type = ml.detect_problem_type(active_df[target].dropna())
+        st.info(f"Detected problem type: **{problem_type.title()}** "
+                f"(based on the target column's data type and number of unique values).")
+
+        test_size = st.slider("Test set size", 0.1, 0.4, 0.2, 0.05)
+
+        if st.button("🎯 Train models", type="primary"):
+            with st.spinner("Training Linear/Logistic Regression, Decision Tree, Random Forest, and Gradient Boosting..."):
+                try:
+                    report = ml.train_and_evaluate(active_df, target, test_size=test_size)
+                    st.session_state.ml_report = report
+                except Exception as e:
+                    st.error(f"Couldn't train models: {e}")
+                    st.session_state.ml_report = None
+
+    if st.session_state.get("ml_report") is not None:
+        report = st.session_state.ml_report
+        st.success(f"Best model: **{report.best_model}**")
+        st.caption(f"Features used: {', '.join(report.features_used)}")
+
+        st.subheader("Model comparison")
+        results_df = report.as_dataframe()
+        st.dataframe(results_df, use_container_width=True, hide_index=True)
+
+        best = report.results[0]
+        if report.problem_type == "classification" and best.confusion is not None:
+            st.subheader(f"Confusion matrix — {best.name}")
+            import plotly.express as px
+            labels = report.class_labels if report.class_labels else [str(i) for i in range(len(best.confusion))]
+            fig = px.imshow(best.confusion, text_auto=True, x=labels, y=labels,
+                             labels=dict(x="Predicted", y="Actual", color="Count"),
+                             color_continuous_scale="Blues")
+            st.plotly_chart(fig, use_container_width=True)
+        elif report.problem_type == "regression":
+            st.subheader(f"Predicted vs Actual — {best.name}")
+            import plotly.express as px
+            import pandas as pd
+            plot_df = pd.DataFrame({"Actual": active_df.dropna(subset=[report.target])[report.target].iloc[-len(best.predictions):].values, "Predicted": best.predictions})
+            fig = px.scatter(plot_df, x="Actual", y="Predicted", trendline="ols", title="Predicted vs Actual")
+            st.plotly_chart(fig, use_container_width=True)
+    else:
+        st.caption("Pick a target column and click **Train models** to see results here.")
+
+# ---------- TAB 5: Export ----------
 with tab_export:
     active_df = st.session_state.cleaned_df if st.session_state.cleaned_df is not None else raw_df
     st.caption("Exporting " + ("the cleaned dataset." if st.session_state.cleaned_df is not None else "the raw dataset — run cleaning first if you want the cleaned version."))
