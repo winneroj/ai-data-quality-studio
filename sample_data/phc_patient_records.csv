@@ -1,0 +1,255 @@
+PatientID,FullName,Age,Gender,PhoneNumber,Email,Facility,Diagnosis,WeightKg,VisitDate
+P1000,Chuka Nwosu,48,male,,,Ibadan North PHC,Diarrhea,,31/02/2025
+P1001,Tunde Adeyemi,26,F,08011952859,,Kano Central Clinic,Diarrhea,61.7,2026-03-27
+P1002,Kelechi Chukwu,74,F,08048444529,patient2@mail.com,Nsukka PHC,Pneumonia,46.4,2025-10-28
+P1003,Grace Ogunleye,45,M,08052294983,,Nsukka PHC,Diabetes,42.6,2025-03-18
+P1004,Fatima Chukwu,2,M,08014216598,,Agege General Hospital,Anemia,70.3,2025-12-09
+P1005,Grace Suleiman,56,F,08059677127,patient5@mail.com,Nsukka PHC, malaria,61.8,2025-03-12
+P1006,Kelechi Eze,2,F,08051883268,,Enugu Community Clinic,Pneumonia,62.8,2025-08-18
+P1007,Ngozi Okafor,180,Male,08023807765,,Agege General Hospital,DM,88.5,2026-03-05
+P1008,Kelechi Okafor,67,male,08097089157,,Enugu Community Clinic,DM,70.6,2025-10-01
+P1009,Yusuf Ogunleye,76,M,08082404020,patient9@mail.com,Enugu Community Clinic,Diarrhea,50.6,2025-07-19
+P1010,Blessing Adeyemi,35,Male,08091395040,,Kano Central Clinic,Hypertension,30.9,2025-06-19
+P1011,Ifeoma Abubakar,20,F,08076349742,,Enugu Community Clinic,Diabetes,75.5,2025-09-22
+P1012,Zainab Okafor,33,Female,08078497439,,Enugu Community Clinic,Malaria,450.0,2026-04-30
+P1013,Aisha Suleiman,50,Male,08045040758,,Nsukka PHC,Diarrhea,65.3,2026-04-16
+P1014,Segun Eze,39,FEMALE,08069504764,,Nsukka PHC,Anemia,52.6,2026-01-22
+P1015,Ngozi Chukwu,16,FEMALE,000000,patient15@mail.com,Agege General Hospital,Malaria ,83.3,2025-04-26
+P1016,Tunde Adeyemi,82,M,08097139328,,Agege General Hospital,Diabetes,38.5,2025-02-15
+P1017,Fatima Adeyemi,19,FEMALE,08014699850,,Ibadan North PHC,Malnutrition,66.5,2026-03-05
+P1018,Zainab Bello,39,male,08096265253,patient18@mail.com,Ibadan North PHC,Malaria,66.6,2026-02-03
+P1019,Chidinma Okafor,30,M,08078764887,,Kano Central Clinic,Malaria ,,2025-10-29
+P1020,Ifeoma Ogunleye,80,FEMALE,08016072045,,Enugu Community Clinic,Diarrhea,45.8,2025-12-19
+P1021,Amara Chukwu,88,Female,08051313178,,Enugu Community Clinic,Typhoid Fever,55.4,2026-02-27
+P1022,Tunde Okafor,82,Female,08092274945,,Ibadan North PHC,Pneumonia,64.5,2025-07-22
+P1023,Kelechi Ogunleye,84,male,08082723094,,Ibadan North PHC,Diarrhea,53.9,2025-02-01
+P1024,Chidinma Abubakar,31,Male,08082937894,,Enugu Community Clinic,Diabetes,68.0,2026-01-20
+P1025,Ngozi Adeyemi,48,male,08073582612,,Agege General Hospital,Diarrhea,54.5,2025-08-21
+P1026,Emeka Adeyemi,28,male,08059866628,,Nsukka PHC,MALARIA,55.4,2025-10-31
+P1027,Emeka Adeyemi,35,Female,08059374576,,Ibadan North PHC,typhoid,67.6,31/02/2025
+P1028,Ngozi Adeyemi,56,FEMALE,08037566960,,Agege General Hospital,Anemia,56.3,2026-02-09
+P1029,Emeka Chukwu,31,F,08036549771,,Enugu Community Clinic,Malaria,20.7,2026-03-25
+P1030,Ibrahim Chukwu,55,Female,000000,,Agege General Hospital,Typhoid Fever,66.3,2025-05-03
+P1031,Peter Mohammed,14,male,,,Nsukka PHC,Anemia,45.1,2026-02-19
+P1032,Aliyu Mohammed,72,FEMALE,08010507768,,Kano Central Clinic,Pneumonia,73.3,2025-10-25
+P1033,Comfort Abubakar,72,Male,08033219455,,Agege General Hospital,typhoid fever,74.4,2025-03-04
+P1034,Tunde Okafor,83,male,08055665219,,Nsukka PHC,Pneumonia,65.2,2025-02-19
+P1035,Ifeoma Chukwu,80,Male,08048648346,,Kano Central Clinic,Anemia,70.2,2025-11-04
+P1036,Segun Adeyemi,63,Female,08089306062,,Enugu Community Clinic,Hypertension,100.1,2025-05-15
+P1037,Grace Nwosu,68,Male,08022937424,,Agege General Hospital,Diarrhea,66.6,2025-07-31
+P1038,Chuka Adeyemi,79,Female,08052531260,,Ibadan North PHC,Pneumonia,,2025-05-12
+P1039,Zainab Nwosu,25,Male,08070446964,,Agege General Hospital,Diabetes ,48.3,2025-08-24
+P1040,Yusuf Suleiman,58,M,08038899055,,Kano Central Clinic,Malnutrition,52.9,2025-06-03
+P1041,Yusuf Ogunleye,15,F,08089849680,,Kano Central Clinic,Pneumonia,57.4,2025-09-16
+P1042,Musa Mohammed,21,male,08082155452,,Nsukka PHC,Diarrhea,51.9,2025-11-24
+P1043,Kelechi Adeyemi,22,Male,08069491085,,Kano Central Clinic,Malnutrition,62.4,2025-09-28
+P1044,Ifeoma Suleiman,4,M,08026741167,,Nsukka PHC,hypertension,89.8,2025-02-26
+P1045,Blessing Abubakar,66,male,000000,,Enugu Community Clinic,Anemia,49.6,2025-06-18
+P1046,Blessing Abubakar,69,FEMALE,08089950918,,Kano Central Clinic,Malnutrition,59.4,2025-06-17
+P1047,Ifeoma Ogunleye,48,F,08064398838,,Agege General Hospital,Anemia,61.1,2025-06-11
+P1048,Peter Abubakar,58,FEMALE,08073605496,,Agege General Hospital,Diarrhea,49.0,2025-05-30
+P1049,Ngozi Nwosu,26,male,08090592350,,Enugu Community Clinic,Typhoid Fever,51.9,2025-12-14
+P1050,Segun Chukwu,79,Female,08040585340,,Enugu Community Clinic,diabetes,45.2,2026-02-25
+P1051,Chidinma Eze,78,male,08032457867,,Nsukka PHC,malaria,59.8,2025-06-13
+P1052,Aisha Eze,21,F,08053552760,,Ibadan North PHC,Anemia,48.3,2025-06-12
+P1053,Fatima Mohammed,22,F,08062714799,,Ibadan North PHC,Malnutrition,66.3,2025-01-04
+P1054,Amara Nwosu,41,Male,08072719432,,Nsukka PHC,Typhoid Fever,94.6,31/02/2025
+P1055,Peter Eze,5,Male,08098334561,,Nsukka PHC,Typhoid Fever,62.3,2025-09-27
+P1056,Amara Bello,48,Female,08087404262,,Enugu Community Clinic,Malnutrition,20.1,2025-01-13
+P1057,Ibrahim Bello,12,male,08029934342,,Ibadan North PHC,Typhoid,,2025-05-04
+P1058,Ifeoma Chukwu,83,M,08022357334,,Ibadan North PHC,Anemia,71.9,2025-06-16
+P1059,Fatima Eze,80,Female,08015322936,patient59@mail.com,Agege General Hospital,Pneumonia,79.9,2025-01-02
+P1060,Chuka Abubakar,83,F,000000,,Ibadan North PHC,typhoid fever,64.0,2025-05-29
+P1061,Segun Ogunleye,2,Male,08063670521,,Nsukka PHC,Typhoid Fever,83.5,2026-04-22
+P1062,Ngozi Chukwu,6,F,,,Kano Central Clinic,Anemia,53.4,2025-07-29
+P1063,Yusuf Eze,62,F,08054513757,,Nsukka PHC,Malnutrition,71.7,2025-12-20
+P1064,Emeka Abubakar,0,M,08085449895,,Kano Central Clinic,Anemia,61.6,2025-02-26
+P1065,Yusuf Suleiman,7,Female,08012581510,,Enugu Community Clinic,Diarrhea,44.4,2025-02-22
+P1066,Aliyu Ogunleye,15,F,08016399211,,Agege General Hospital,Malaria ,70.8,2025-09-03
+P1067,Ifeoma Nwosu,52,FEMALE,08060816131,patient67@mail.com,Nsukka PHC,Diabetes,45.8,2025-09-04
+P1068,Kelechi Abubakar,80,FEMALE,08057786933,,Agege General Hospital,Pneumonia,74.8,2026-05-01
+P1069,Segun Eze,9,Male,08018820354,,Agege General Hospital,Hypertension,37.9,2025-09-16
+P1070,Chuka Mohammed,24,FEMALE,08017454936,,Agege General Hospital,Typhoid Fever,75.8,2026-02-27
+P1071,Zainab Abubakar,85,F,08085860149,,Enugu Community Clinic,Typhoid Fever,33.2,2025-06-09
+P1072,Tunde Okafor,22,F,08089578013,,Nsukka PHC,Hypertension ,55.6,2026-02-14
+P1073,Emeka Suleiman,42,F,08093946746,,Nsukka PHC,diabetes,81.1,2025-03-11
+P1074,Grace Chukwu,84,F,08099583920,,Ibadan North PHC,Pneumonia,63.7,2025-12-01
+P1075,Amara Okafor,31,F,000000,,Agege General Hospital, malaria,60.3,2025-02-02
+P1076,Aisha Okafor,27,male,08060645898,,Enugu Community Clinic,diabetes,,2025-12-04
+P1077,Blessing Mohammed,66,M,08073733750,,Ibadan North PHC,Typhoid Fever,31.6,2025-06-15
+P1078,Segun Chukwu,5,F,08059346323,,Ibadan North PHC,Malnutrition,52.2,2025-10-10
+P1079,Musa Abubakar,20,Male,08089697283,,Kano Central Clinic,Diarrhea,46.8,2025-03-03
+P1080,Yusuf Bello,47,F,08039821549,,Enugu Community Clinic,Malnutrition,66.9,2025-09-10
+P1081,Grace Okafor,52,Male,08076019510,,Nsukka PHC,Hypertension,72.9,31/02/2025
+P1082,Zainab Chukwu,67,FEMALE,08014294911,,Nsukka PHC,Hypertension,61.0,2026-04-22
+P1083,Peter Bello,46,FEMALE,08016426014,,Nsukka PHC,Typhoid Fever,60.8,2025-09-18
+P1084,Aliyu Mohammed,57,FEMALE,08070438503,,Kano Central Clinic,Malaria,63.5,2025-01-27
+P1085,Chidinma Nwosu,41,Female,08065815929,,Nsukka PHC,Anemia,52.8,2025-01-20
+P1086,Fatima Ogunleye,88,male,08038924913,,Agege General Hospital,typhoid fever,49.1,2025-07-04
+P1087,Emeka Nwosu,55,Male,08078276547,,Enugu Community Clinic,Pneumonia,36.6,2025-04-01
+P1088,Ifeoma Adeyemi,86,FEMALE,08014723517,,Enugu Community Clinic,Typhoid Fever,58.0,2026-05-05
+P1089,Amara Ogunleye,23,FEMALE,08095455531,patient89@mail.com,Nsukka PHC,Typhoid Fever,80.6,2025-01-24
+P1090,Peter Okafor,27,male,000000,,Nsukka PHC,Hypertension,53.5,2025-03-26
+P1091,Comfort Ogunleye,77,F,08046961671,,Nsukka PHC,Anemia,47.5,2025-10-30
+P1092,Ifeoma Okafor,29,Female,08053083165,,Nsukka PHC,Diabetes,67.3,2025-08-15
+P1093,Chidinma Chukwu,65,male,,,Nsukka PHC,Hypertension ,32.3,2025-05-20
+P1094,Grace Suleiman,48,F,08010687975,,Agege General Hospital,HTN,78.9,2025-11-12
+P1095,Aisha Okafor,33,M,08043789626,,Ibadan North PHC,Diabetes ,,2026-04-18
+P1096,Yusuf Abubakar,81,F,08012276545,,Kano Central Clinic,HTN,37.5,2026-03-09
+P1097,Zainab Chukwu,0,Male,08013659263,patient97@mail.com,Ibadan North PHC,Anemia,28.3,2025-12-24
+P1098,Yusuf Okafor,74,Male,08078588632,,Ibadan North PHC,Hypertension,74.4,2026-04-04
+P1099,Fatima Nwosu,64,F,08078189757,,Agege General Hospital,diabetes,65.7,2025-04-23
+P1100,Ibrahim Bello,63,Male,08024537462,,Enugu Community Clinic,Pneumonia,42.3,2026-04-28
+P1101,Grace Nwosu,55,F,08059136197,,Enugu Community Clinic,Anemia,39.1,2026-03-16
+P1102,Zainab Ogunleye,43,Male,08076016998,,Enugu Community Clinic,Diabetes ,58.4,2026-04-01
+P1103,Chuka Mohammed,16,male,08078306462,,Agege General Hospital,Pneumonia,71.7,2025-05-17
+P1104,Zainab Adeyemi,47,FEMALE,08023292218,patient104@mail.com,Enugu Community Clinic, malaria,63.7,2026-01-06
+P1105,Segun Suleiman,50,M,000000,,Ibadan North PHC,Malaria ,79.4,2025-09-24
+P1106,Tunde Ogunleye,25,Male,08027010754,,Agege General Hospital,Malaria,52.7,2025-04-03
+P1107,Peter Okafor,54,Male,08065796568,,Ibadan North PHC,Hypertension,37.2,2025-12-31
+P1108,Emeka Nwosu,19,Female,08040178055,patient108@mail.com,Enugu Community Clinic,Malaria,69.3,31/02/2025
+P1109,Blessing Bello,17,M,08083296259,,Kano Central Clinic,Diarrhea,68.1,2025-05-15
+P1110,Grace Okafor,86,F,08065959381,,Ibadan North PHC,Malaria,42.4,2025-07-22
+P1111,Peter Okafor,52,F,08054886386,,Ibadan North PHC,Anemia,68.6,2025-10-09
+P1112,Yusuf Bello,83,FEMALE,08018285985,,Ibadan North PHC,Malaria,88.0,2025-09-24
+P1113,Fatima Nwosu,82,Male,08050002962,,Nsukka PHC,Diarrhea,89.2,2025-06-14
+P1114,Emeka Eze,15,F,08025670502,,Kano Central Clinic,Anemia,,2025-06-18
+P1115,Aisha Nwosu,30,male,08097124483,,Ibadan North PHC,Diarrhea,52.8,2025-02-15
+P1116,Ifeoma Ogunleye,28,male,08084413508,,Ibadan North PHC,TYPHOID FEVER,63.2,2026-04-16
+P1117,Yusuf Bello,4,Male,08047325027,,Ibadan North PHC,Malaria,46.6,2025-08-12
+P1118,Comfort Suleiman,6,Male,08050562222,,Enugu Community Clinic,DM,61.7,2025-01-05
+P1119,Comfort Chukwu,84,FEMALE,08072402907,,Kano Central Clinic,Pneumonia,53.3,2025-05-11
+P1120,Comfort Abubakar,68,male,000000,,Nsukka PHC, malaria,62.5,2026-04-20
+P1121,Kelechi Ogunleye,74,Female,08085833950,,Enugu Community Clinic,Pneumonia,58.7,2025-08-12
+P1122,Ibrahim Abubakar,54,male,08058666844,,Nsukka PHC,Malnutrition,69.7,2026-02-23
+P1123,Blessing Okafor,61,Female,08034441688,,Nsukka PHC,Malaria ,48.7,2025-04-22
+P1124,Amara Eze,45,male,,,Enugu Community Clinic,MALARIA,73.3,2025-04-07
+P1125,Grace Nwosu,70,male,08097205495,,Nsukka PHC,Malnutrition,46.4,2025-02-22
+P1126,Grace Eze,5,Male,08019557241,,Enugu Community Clinic,Typhoid Fever,81.3,2025-11-04
+P1127,Musa Mohammed,15,F,08010473969,patient127@mail.com,Agege General Hospital,Typhoid Fever,58.0,2025-11-06
+P1128,Ifeoma Eze,55,F,08040266516,,Enugu Community Clinic,Hypertension,88.7,2025-03-19
+P1129,Zainab Abubakar,13,M,08063864418,patient129@mail.com,Enugu Community Clinic,Malnutrition,73.1,2025-04-25
+P1130,Fatima Chukwu,14,Male,08056348947,,Agege General Hospital,Anemia,87.0,2026-05-09
+P1131,Ifeoma Ogunleye,84,Male,08025251915,patient131@mail.com,Agege General Hospital,diabetes,69.1,2025-02-26
+P1132,Kelechi Eze,9,F,08094200622,,Enugu Community Clinic,Typhoid Fever,53.2,2025-05-23
+P1133,Aisha Abubakar,10,Female,08078403553,,Ibadan North PHC,Diarrhea,,2025-10-24
+P1134,Peter Chukwu,55,Male,08055458748,,Nsukka PHC,Diarrhea,70.2,2025-12-17
+P1135,Tunde Nwosu,73,M,000000,,Enugu Community Clinic,Pneumonia,38.2,31/02/2025
+P1136,Chidinma Adeyemi,56,Female,08083325578,,Ibadan North PHC,HTN,25.5,2026-05-15
+P1137,Blessing Nwosu,52,male,08053334136,,Enugu Community Clinic,Diabetes,73.9,2026-04-08
+P1138,Chidinma Nwosu,74,Male,08019302626,,Nsukka PHC,Malnutrition,77.6,2026-04-01
+P1139,Emeka Abubakar,82,FEMALE,08083824017,,Enugu Community Clinic,Diarrhea,23.5,2025-12-18
+P1140,Aisha Nwosu,59,Female,08067774210,,Agege General Hospital,Typhoid Fever,63.0,2026-05-13
+P1141,Fatima Ogunleye,34,F,08074721190,,Ibadan North PHC,Malaria ,99.1,2025-06-25
+P1142,Kelechi Abubakar,57,Female,08080886690,,Ibadan North PHC,Malnutrition,56.9,2025-05-17
+P1143,Aliyu Ogunleye,52,Male,08060257941,,Ibadan North PHC,Diabetes ,54.8,2026-03-16
+P1144,Musa Mohammed,38,F,08047664168,,Ibadan North PHC,Malaria ,71.8,2026-01-29
+P1145,Tunde Bello,76,Male,08099204311,,Kano Central Clinic,Malaria,86.1,2025-02-10
+P1146,Emeka Suleiman,2,male,08090618706,,Kano Central Clinic,Anemia,57.4,2025-01-24
+P1147,Chuka Mohammed,27,male,08045036915,patient147@mail.com,Enugu Community Clinic,Anemia,53.5,2025-05-21
+P1148,Peter Ogunleye,52,male,08027776145,,Ibadan North PHC,Diabetes,83.0,2026-01-03
+P1149,Chidinma Suleiman,54,male,08043618312,,Agege General Hospital,Anemia,42.0,2025-05-11
+P1150,Musa Suleiman,52,M,000000,,Ibadan North PHC,Diarrhea,49.9,2025-04-07
+P1151,Ifeoma Bello,80,M,08017348939,,Enugu Community Clinic,Diabetes ,64.2,2025-10-22
+P1152,Aisha Adeyemi,52,F,08018967672,,Agege General Hospital,Hypertension,,2025-01-25
+P1153,Chidinma Bello,68,F,08055842731,,Nsukka PHC,Anemia,52.3,2026-04-11
+P1154,Yusuf Bello,40,FEMALE,08033191253,,Kano Central Clinic,Pneumonia,30.3,2025-03-15
+P1155,Ibrahim Abubakar,20,M,,,Kano Central Clinic,Malnutrition,81.3,2025-12-17
+P1156,Zainab Chukwu,20,FEMALE,08027699065,,Enugu Community Clinic,Diabetes,49.5,2026-03-12
+P1157,Aliyu Mohammed,30,M,08045174087,,Agege General Hospital,Malaria,55.9,2025-07-29
+P1158,Aisha Suleiman,0,M,08059325247,,Agege General Hospital,Hypertension,69.1,2025-01-15
+P1159,Zainab Okafor,32,M,08094445381,patient159@mail.com,Ibadan North PHC,Pneumonia,77.2,2025-12-31
+P1160,Musa Mohammed,18,FEMALE,08079503875,,Nsukka PHC,Malnutrition,63.5,2026-01-03
+P1161,Tunde Chukwu,6,Male,08058692285,,Nsukka PHC,Anemia,35.7,2025-05-11
+P1162,Chuka Nwosu,81,F,08079781971,,Nsukka PHC,Diabetes,60.3,31/02/2025
+P1163,Musa Eze,46,Female,08086739896,,Nsukka PHC,Anemia,49.0,2026-04-03
+P1164,Segun Chukwu,59,male,08092404326,,Agege General Hospital,Anemia,40.4,2026-05-11
+P1165,Segun Nwosu,77,Male,000000,,Ibadan North PHC,Pneumonia,31.4,2025-08-26
+P1166,Fatima Mohammed,33,M,08099780093,,Agege General Hospital,Diabetes,82.8,2025-12-04
+P1167,Ngozi Eze,10,male,08051678580,,Nsukka PHC,Malaria,111.2,2025-10-12
+P1168,Ibrahim Adeyemi,41,Female,08082587308,,Enugu Community Clinic,Diabetes,41.0,2025-04-12
+P1169,Ibrahim Mohammed,9,Male,08051141915,,Kano Central Clinic,Diabetes,38.6,2025-09-27
+P1170,Grace Nwosu,14,FEMALE,08032917172,,Agege General Hospital,Anemia,60.9,2025-07-03
+P1171,Aliyu Mohammed,56,FEMALE,08086953187,,Enugu Community Clinic,Hypertension ,,2026-03-01
+P1172,Ifeoma Abubakar,75,FEMALE,08099411550,patient172@mail.com,Ibadan North PHC,Hypertension,37.1,2025-03-25
+P1173,Grace Ogunleye,21,male,08013251524,,Agege General Hospital,Hypertension ,85.0,2025-02-16
+P1174,Ibrahim Suleiman,40,FEMALE,08081168039,,Agege General Hospital,Hypertension ,68.1,2025-09-07
+P1175,Yusuf Abubakar,12,F,08074997000,,Enugu Community Clinic,Malnutrition,34.5,2025-12-31
+P1176,Aisha Okafor,64,Female,08040654550,patient176@mail.com,Ibadan North PHC,Diabetes,74.4,2025-06-19
+P1177,Segun Adeyemi,13,F,08020841549,,Nsukka PHC,Hypertension,75.3,2025-09-23
+P1178,Aisha Mohammed,3,Female,08070012881,,Nsukka PHC,malaria,67.6,2026-04-03
+P1179,Amara Nwosu,16,Male,08093284812,,Ibadan North PHC,MALARIA,49.8,2026-02-11
+P1180,Tunde Nwosu,1,M,000000,patient180@mail.com,Kano Central Clinic,Pneumonia,64.5,2026-03-02
+P1181,Fatima Ogunleye,14,Female,08060554543,patient181@mail.com,Ibadan North PHC,Malnutrition,68.9,2025-10-23
+P1182,Amara Okafor,0,F,08053777733,,Agege General Hospital,Anemia,64.7,2025-07-20
+P1183,Aisha Ogunleye,27,M,08033117772,,Kano Central Clinic,Diarrhea,76.4,2025-04-24
+P1184,Amara Suleiman,25,M,08013730120,,Agege General Hospital,Malnutrition,31.3,2025-04-25
+P1185,Ngozi Okafor,7,FEMALE,08057223006,,Nsukka PHC,Pneumonia,53.7,2025-11-05
+P1186,Peter Ogunleye,3,male,,,Enugu Community Clinic,Anemia,57.7,2026-03-05
+P1187,Zainab Bello,38,M,08088445783,,Kano Central Clinic,MALARIA,84.5,2025-11-14
+P1188,Zainab Eze,56,Male,08092448306,,Ibadan North PHC,Typhoid Fever,45.0,2025-01-10
+P1189,Comfort Okafor,23,Female,08038119134,,Ibadan North PHC,Malnutrition,62.2,31/02/2025
+P1190,Aisha Nwosu,71,FEMALE,08024343210,,Enugu Community Clinic,Diabetes,,2025-01-08
+P1191,Chuka Nwosu,42,F,08046146434,,Ibadan North PHC,hypertension,97.5,2025-09-20
+P1192,Peter Okafor,47,F,08031808884,,Nsukka PHC,Diarrhea,75.5,2026-02-03
+P1193,Chidinma Mohammed,89,F,08017134903,,Nsukka PHC,Typhoid Fever,33.1,2026-04-04
+P1194,Tunde Ogunleye,82,Female,08035163417,,Ibadan North PHC,Diarrhea,43.0,2026-04-13
+P1195,Segun Adeyemi,38,F,000000,,Ibadan North PHC,Diabetes ,61.3,2026-01-24
+P1196,Blessing Suleiman,22,male,08083450877,,Ibadan North PHC,Diabetes,36.7,2025-05-10
+P1197,Aliyu Suleiman,65,male,08011658759,,Agege General Hospital,Diarrhea,42.3,2026-02-28
+P1198,Yusuf Abubakar,8,male,08056605624,,Kano Central Clinic,Anemia,68.7,2025-07-12
+P1199,Ngozi Mohammed,8,M,08046210439,,Kano Central Clinic,Typhoid Fever,43.9,2025-12-19
+P1200,Kelechi Chukwu,61,F,08061723605,,Ibadan North PHC,Pneumonia,41.2,2025-12-22
+P1201,Amara Suleiman,61,M,08046404655,,Ibadan North PHC,Pneumonia,54.2,2026-01-30
+P1202,Blessing Bello,58,male,08063090009,,Enugu Community Clinic,Diarrhea,60.2,2025-10-16
+P1203,Zainab Ogunleye,79,F,08059996534,,Nsukka PHC,Malnutrition,70.4,2025-10-01
+P1204,Ngozi Adeyemi,37,Female,08042786452,,Enugu Community Clinic,Malnutrition,75.5,2025-02-18
+P1205,Zainab Ogunleye,52,FEMALE,08039232645,,Enugu Community Clinic,Malaria,42.6,2026-01-15
+P1206,Grace Nwosu,76,FEMALE,08027871792,,Nsukka PHC,Pneumonia,69.9,2025-01-18
+P1207,Zainab Suleiman,42,FEMALE,08060522010,,Kano Central Clinic,Typhoid Fever,33.8,2025-09-26
+P1208,Chidinma Ogunleye,7,Female,08075820981,,Agege General Hospital,typhoid,94.5,2026-02-23
+P1209,Yusuf Abubakar,64,FEMALE,08024564032,,Enugu Community Clinic,HTN,,2025-06-28
+P1210,Ifeoma Bello,79,Male,000000,,Kano Central Clinic,typhoid fever,49.9,2026-04-15
+P1211,Peter Chukwu,10,male,08057509751,,Nsukka PHC,Malnutrition,66.0,2025-12-22
+P1212,Blessing Suleiman,35,male,08042027837,,Ibadan North PHC,Pneumonia,55.2,2025-07-02
+P1213,Ibrahim Chukwu,43,FEMALE,08031787671,,Ibadan North PHC,Diarrhea,81.2,2025-08-21
+P1214,Ngozi Eze,45,Male,08072822358,,Kano Central Clinic,Anemia,60.9,2025-04-14
+P1215,Chidinma Eze,46,F,08081110951,,Ibadan North PHC,Anemia,61.6,2025-09-11
+P1216,Aisha Adeyemi,25,FEMALE,08038188941,,Nsukka PHC,Hypertension,53.6,31/02/2025
+P1217,Emeka Eze,20,FEMALE,,,Ibadan North PHC,Hypertension,62.2,2025-02-19
+P1218,Kelechi Okafor,72,Male,08056995176,,Nsukka PHC,Malaria ,58.0,2025-07-14
+P1219,Zainab Nwosu,67,FEMALE,08041873969,,Kano Central Clinic,Anemia,61.0,2025-04-19
+P1220,Chidinma Mohammed,60,male,08023293568,,Agege General Hospital,Pneumonia,77.8,2025-09-11
+P1221,Segun Eze,35,Male,08076411255,,Agege General Hospital,Diarrhea,41.1,2026-04-15
+P1222,Peter Mohammed,45,M,08099282643,,Kano Central Clinic,Anemia,47.3,2026-05-13
+P1223,Grace Mohammed,73,FEMALE,08087127454,,Ibadan North PHC,Hypertension,75.0,2025-01-06
+P1224,Fatima Chukwu,9,Female,08079526447,patient224@mail.com,Agege General Hospital,Diarrhea,43.1,2026-04-19
+P1225,Kelechi Mohammed,87,Female,000000,,Kano Central Clinic,Anemia,45.5,2025-11-09
+P1226,Chuka Bello,84,male,08065283441,,Ibadan North PHC,Pneumonia,55.2,2025-06-28
+P1227,Chidinma Bello,10,M,08022809151,,Nsukka PHC, malaria,58.1,2025-09-01
+P1228,Kelechi Nwosu,17,M,08057459428,,Enugu Community Clinic,Hypertension,,2025-03-07
+P1229,Amara Eze,8,Female,08094239781,,Enugu Community Clinic,Hypertension ,65.5,2026-02-05
+P1230,Yusuf Bello,82,F,08049840716,,Enugu Community Clinic,Typhoid,79.2,2026-04-02
+P1231,Fatima Ogunleye,20,M,08088564106,,Agege General Hospital,Diabetes,58.9,2025-05-23
+P1232,Grace Adeyemi,62,Female,08046760962,patient232@mail.com,Kano Central Clinic,Typhoid,57.3,2025-06-19
+P1233,Tunde Eze,73,M,08053873093,,Agege General Hospital,Typhoid Fever,57.5,2025-06-01
+P1234,Grace Chukwu,73,FEMALE,08068978247,,Agege General Hospital,Diabetes,42.8,2025-04-19
+P1235,Grace Ogunleye,45,M,08013128739,,Agege General Hospital,Pneumonia,75.3,2025-01-30
+P1236,Blessing Chukwu,52,FEMALE,08051057118,patient236@mail.com,Agege General Hospital,typhoid,49.3,2025-01-22
+P1237,Aisha Mohammed,21,male,08085724046,,Nsukka PHC,diabetes,62.4,2025-04-10
+P1238,Comfort Abubakar,10,F,08088722540,patient238@mail.com,Nsukka PHC,Malnutrition,61.5,2026-04-26
+P1239,Peter Nwosu,67,Male,08038044588,,Nsukka PHC,TYPHOID FEVER,56.9,2025-10-29
+P1240,Peter Nwosu,44,M,000000,,Kano Central Clinic,Pneumonia,46.5,2025-10-01
+P1241,Yusuf Abubakar,54,FEMALE,08020209722,,Enugu Community Clinic,Malnutrition,35.3,2025-03-25
+P1242,Tunde Abubakar,19,M,08036302682,patient242@mail.com,Agege General Hospital,Anemia,52.7,2025-08-26
+P1243,Kelechi Okafor,8,Male,08023643352,,Nsukka PHC,typhoid,69.6,31/02/2025
+P1244,Amara Suleiman,22,Male,08031392039,patient244@mail.com,Agege General Hospital,Malaria,35.8,2026-05-10
+P1245,Chuka Abubakar,14,male,08024677874,,Agege General Hospital,Pneumonia,68.2,2025-09-21
+P1246,Ngozi Okafor,65,F,08010241570,,Enugu Community Clinic,Malnutrition,57.6,2026-03-09
+P1247,Chidinma Eze,75,male,08010057118,patient247@mail.com,Ibadan North PHC,Hypertension,,2025-08-13
+P1248,Yusuf Bello,62,male,,,Nsukka PHC,malaria,62.7,2025-07-27
+P1249,Chidinma Ogunleye,26,FEMALE,08074529135,,Kano Central Clinic,Malnutrition,51.3,2025-04-17
+P1003,Grace Ogunleye,45,M,08052294983,,Nsukka PHC,Diabetes,42.6,2025-03-18
+P1003,Grace Ogunleye,45,M,08052294983,,Nsukka PHC,Diabetes,42.6,2025-03-18
+P1088,Ifeoma Adeyemi,86,FEMALE,08014723517,,Enugu Community Clinic,Typhoid Fever,58.0,2026-05-05
+P1150,Musa Suleiman,52,M,000000,,Ibadan North PHC,Diarrhea,49.9,2025-04-07

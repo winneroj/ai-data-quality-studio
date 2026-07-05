@@ -32,7 +32,9 @@ st.sidebar.title("🧪 AI Data Quality Studio")
 st.sidebar.caption("Upload → Detect → Clean → Explore → Export")
 
 uploaded = st.sidebar.file_uploader("Upload a dataset", type=["csv", "xlsx", "xls", "tsv", "json"])
-use_sample = st.sidebar.button("Or load the sample messy dataset")
+st.sidebar.caption("or try a sample:")
+sample_choice = st.sidebar.selectbox("Sample dataset", ["", "🏥 Messy clinic patient records", "🛒 Messy retail data"], label_visibility="collapsed")
+use_sample = st.sidebar.button("Load sample")
 
 if uploaded is not None:
     name = uploaded.name.lower()
@@ -55,14 +57,17 @@ if uploaded is not None:
         st.sidebar.error(f"Could not read file: {e}")
 
 if use_sample:
-    st.session_state.raw_df = pd.read_csv("sample_data/messy_retail_data.csv")
+    if sample_choice == "🛒 Messy retail data":
+        st.session_state.raw_df = pd.read_csv("sample_data/messy_retail_data.csv")
+    else:
+        st.session_state.raw_df = pd.read_csv("sample_data/phc_patient_records.csv")
     st.session_state.cleaned_df = None
     st.session_state.cleaning_log = None
 
 st.title("AI Data Quality Studio")
 
 if st.session_state.raw_df is None:
-    st.info("👈 Upload a CSV/Excel/TSV/JSON file, or click **'Or load the sample messy dataset'** in the sidebar to try it out instantly.")
+    st.info("👈 Upload a CSV/Excel/TSV/JSON file, or pick a sample dataset in the sidebar and click **'Load sample'** to try it out instantly.")
     st.stop()
 
 raw_df = st.session_state.raw_df

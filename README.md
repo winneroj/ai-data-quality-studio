@@ -10,6 +10,33 @@ what's wrong, a one-click fix, exploratory charts, and a trained ML model —
 all running locally in your browser, no account, no server, no internet
 required after install.**
 
+## 🎯 The problem
+
+Across Nigerian primary health centres, agricultural extension offices,
+microfinance branches, and local government data units, frontline staff
+collect data in Excel and paper-to-digital forms every day — patient
+visits, farmer surveys, loan applications, census records. That data is
+almost never clean: duplicate patient entries from re-registration,
+inconsistent diagnosis spellings ("malaria" / "MALARIA" / "Malaria "),
+missing phone numbers, impossible ages, invalid dates. Most of these
+teams have no data scientist on staff, so the errors flow straight into
+reports that inform real decisions — health resource allocation, loan
+approvals, agricultural planning, government budgeting.
+
+**AI Data Quality Studio puts a data quality engine in front of anyone who
+can open a spreadsheet, no coding required.** The included demo dataset
+models messy primary health centre (PHC) patient records — but the same
+engine works unmodified on agriculture, finance, or governance data; data
+quality problems (missing values, duplicates, inconsistent categories,
+invalid contact info) look the same shape regardless of the domain.
+
+**One deliberate design choice:** when data truly can't be recovered — a
+patient's phone number was simply never recorded — the tool marks it
+"Not Provided" rather than fabricating a realistic-looking fake value.
+Silently guessing a phone number or copying someone else's real email
+onto hundreds of other records would be actively dangerous for health
+data. The tool is honest about what still needs a human to follow up on.
+
 ---
 
 ## ✨ Features
@@ -75,14 +102,17 @@ ai_dq_studio/
 
 ## 🎤 Suggested demo script
 
-1. Click **"load the sample messy dataset"** — instant, no upload needed.
+1. In the sidebar, pick **"🏥 Messy clinic patient records"** and click
+   **"Load sample"** — instant, no upload needed.
 2. **Data Quality Report** tab: point at the score, scroll the issues
-   table, expand a column's details.
-3. **Cleaning Engine** tab: click "Run one-click auto-clean" live. Watch
-   the score jump, show the before/after table and full action log.
+   table — call out the inconsistent diagnosis spellings and missing
+   contact info as the kind of thing that quietly breaks health reporting.
+3. **Cleaning Engine** tab: click "Run one-click auto-clean" live. Show
+   the before/after table and the full action log — especially the
+   "Flag as missing" entries for phone/email, to make the honesty point.
 4. **Exploratory Analysis** tab: show a chart or two on the cleaned data.
-5. **Machine Learning** tab: pick a target column, click "Train models,"
-   show the model comparison table.
+5. **Machine Learning** tab: pick a target column (e.g. Diagnosis), click
+   "Train models," show the model comparison table.
 6. **Export** tab: download the cleaned file to close the loop.
 
 ## 🛣 Roadmap
