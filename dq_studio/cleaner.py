@@ -151,7 +151,17 @@ def auto_clean(df: pd.DataFrame, options: dict | None = None) -> CleaningResult:
             n_missing = int(work[col].isna().sum())
             if n_missing == 0:
                 continue
-            if pd.api.types.is_numeric_dtype(work[col]):
+            missing_pct = 100 * n_missing / len(work)
+            is_identifier_like = "id" in col.lower() or "phone" in col.lower() or "mobile" in col.lower() or "tel" in col.lower() or "email" in col.lower()
+
+            # Identifier-like columns (phone/email/ID) or columns missing >40% of values:
+            # don't fabricate a specific fake value (e.g. copying one real patient's email onto
+            # 200 other patients) — use an honest, visible placeholder instead.
+            if is_identifier_like or missing_pct > 40:
+                placeholder = "Not Provided"
+                work[col] = work[col].astype(object).where(~work[col].isna(), placeholder)
+                actions.append(CleaningAction(col, "Flag as missing", f"Marked {n_missing} missing value(s) as '{placeholder}' rather than guessing a real-looking value (protects data integrity for identifiers/PII).", n_missing))
+            elif pd.api.types.is_numeric_dtype(work[col]):
                 strategy = _numeric_fill_strategy(work[col])
                 fill_value = work[col].median() if strategy == "median" else work[col].mean()
                 work[col] = work[col].fillna(fill_value)
@@ -168,7 +178,7 @@ def auto_clean(df: pd.DataFrame, options: dict | None = None) -> CleaningResult:
     # 7. Cap outliers (winsorize numeric columns using IQR bounds) — never applied to ID-like columns
     if opts["cap_outliers"]:
         for col in work.select_dtypes(include=[np.number]).columns:
-            if "id" in col.lower():
+            if "id" in col.lower() or "phone" in col.lower() or "mobile" in col.lower() or "tel" in col.lower():
                 continue
             series = work[col].dropna()
             if len(series) < 10:

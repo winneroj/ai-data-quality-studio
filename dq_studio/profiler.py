@@ -232,10 +232,11 @@ def profile_dataframe(df: pd.DataFrame) -> QualityReport:
                         affected_count=int(invalid), affected_pct=pct, penalty=min(6, pct * 0.2),
                     ))
 
-        # Numeric-only checks
+        # Numeric-only checks (skip identifier-like columns: IDs, phone numbers — not real measurements)
+        is_identifier_like = "id" in str(col).lower() or looks_like_phone_column(series)
         numeric_series = pd.to_numeric(series, errors="coerce")
         n_numeric_valid = numeric_series.notna().sum()
-        if dtype != "object" or n_numeric_valid > 0.5 * len(series.dropna() if len(series.dropna()) else [1]):
+        if not is_identifier_like and (dtype != "object" or n_numeric_valid > 0.5 * len(series.dropna() if len(series.dropna()) else [1])):
             clean_numeric = numeric_series.dropna()
             if len(clean_numeric) > 10:
                 q1, q3 = clean_numeric.quantile(0.25), clean_numeric.quantile(0.75)
