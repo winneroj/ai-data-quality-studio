@@ -1,0 +1,304 @@
+CustomerID,Name  ,Email,Phone,Region,Age,PurchaseAmount,SignupDate,Region_copy
+1,Customer 0,bad_email_0,12345,North,,N/A,2023-01-01,North
+2,Customer 1,customer1@example.com,+234-801-1001,South,69.0,1045.63,2023-01-02,South
+3,Customer 2,customer2@example.com,+234-802-1002,East,46.0,1634.69,2023-01-03,East
+4,Customer 3,customer3@example.com,+234-803-1003,West,32.0,6025.83,2023-01-04,West
+5,Customer 4,customer4@example.com,+234-804-1004,north,60.0,9375.53,2023-01-05,north
+6,Customer 5,customer5@example.com,+234-805-1005,SOUTH,250.0,9700.98,2023-01-06,SOUTH
+7,Customer 6,customer6@example.com,+234-806-1006, East ,38.0,2591.84,2023-01-07, East 
+8,Customer 7,customer7@example.com,+234-807-1007,Nort,56.0,10936.03,2023-01-08,Nort
+9,Customer 8,customer8@example.com,+234-808-1008,North,36.0,9516.64,2023-01-09,North
+10,Customer 9,customer9@example.com,+234-809-1009,South,40.0,13715.93,2023-01-10,South
+11,Customer 10,customer10@example.com,+234-800-1010,East,28.0,500000,2023-01-11,East
+12,Customer 11,customer11@example.com,+234-801-1011,West,28.0,,2023-01-12,West
+13,Customer 12,customer12@example.com,+234-802-1012,north,41.0,4345.68,2023-01-13,north
+14,Customer 13,customer13@example.com,12345,SOUTH,53.0,2328.33,2023-01-14,SOUTH
+15,Customer 14,customer14@example.com,+234-804-1014, East ,57.0,14078.19,2023-01-15, East 
+16,Customer 15,customer15@example.com,+234-805-1015,Nort,41.0,18184.06,2023-01-16,Nort
+17,Customer 16,customer16@example.com,+234-806-1016,North,20.0,1669.82,2023-01-17,North
+18,Customer 17,bad_email_17,+234-807-1017,South,39.0,1821.84,2023-01-18,South
+19,Customer 18,customer18@example.com,+234-808-1018,East,19.0,3323.9,2023-01-19,East
+20,Customer 19,customer19@example.com,+234-809-1019,West,,2974.88,2023-01-20,West
+21,Customer 20,customer20@example.com,+234-800-1020,north,61.0,25976.51,2023-01-21,north
+22,Customer 21,customer21@example.com,+234-801-1021,SOUTH,47.0,967.47,2023-01-22,SOUTH
+23,Customer 22,customer22@example.com,+234-802-1022, East ,55.0,,2023-01-23, East 
+24,Customer 23,,+234-803-1023,Nort,19.0,3405.04,2023-01-24,Nort
+25,Customer 24,customer24@example.com,+234-804-1024,North,38.0,985.08,2023-01-25,North
+26,Customer 25,customer25@example.com,+234-805-1025,South,50.0,2282.23,2023-01-26,South
+27,Customer 26,customer26@example.com,12345,East,29.0,6816.22,2023-01-27,East
+28,Customer 27,customer27@example.com,+234-807-1027,West,39.0,6381.64,2023-01-28,West
+29,Customer 28,customer28@example.com,+234-808-1028,north,61.0,1841.29,2023-01-29,north
+30,Customer 29,customer29@example.com,,SOUTH,42.0,3910.33,2023-01-30,SOUTH
+31,Customer 30,customer30@example.com,+234-800-1030, East ,66.0,3554.66,2023-01-31, East 
+32,Customer 31,customer31@example.com,+234-801-1031,Nort,44.0,5057.58,2023-02-01,Nort
+33,Customer 32,customer32@example.com,+234-802-1032,North,59.0,1441.49,2023-02-02,North
+34,Customer 33,customer33@example.com,+234-803-1033,South,45.0,,2023-02-03,South
+35,Customer 34,bad_email_34,+234-804-1034,East,33.0,19290.72,2023-02-04,East
+36,Customer 35,customer35@example.com,+234-805-1035,West,32.0,3334.88,2023-02-05,West
+37,Customer 36,customer36@example.com,+234-806-1036,north,64.0,11827.56,2023-02-06,north
+38,Customer 37,customer37@example.com,+234-807-1037,SOUTH,68.0,2849.29,2023-02-07,SOUTH
+39,Customer 38,customer38@example.com,+234-808-1038, East ,,2154.52,2023-02-08, East 
+40,Customer 39,customer39@example.com,12345,Nort,69.0,5179.64,2023-02-09,Nort
+41,Customer 40,customer40@example.com,+234-800-1040,North,20.0,5527.04,2023-02-10,North
+42,Customer 41,customer41@example.com,+234-801-1041,South,54.0,9981.67,2023-02-11,South
+43,Customer 42,customer42@example.com,+234-802-1042,East,68.0,1308.03,2023-02-12,East
+44,Customer 43,customer43@example.com,+234-803-1043,West,24.0,3457.68,2023-02-13,West
+45,Customer 44,customer44@example.com,+234-804-1044,north,38.0,,2023-02-14,north
+46,Customer 45,customer45@example.com,+234-805-1045,SOUTH,26.0,7317.04,2023-02-15,SOUTH
+47,Customer 46,,+234-806-1046, East ,56.0,222.91,2023-02-16, East 
+48,Customer 47,customer47@example.com,+234-807-1047,Nort,35.0,26061.17,2023-02-17,Nort
+49,Customer 48,customer48@example.com,+234-808-1048,North,21.0,3173.87,2023-02-18,North
+50,Customer 49,customer49@example.com,+234-809-1049,South,42.0,1639.47,2023-02-19,South
+51,Customer 50,customer50@example.com,+234-800-1050,East,31.0,10749.06,2023-02-20,East
+52,Customer 51,bad_email_51,+234-801-1051,West,67.0,6886.05,2023-02-21,West
+53,Customer 52,customer52@example.com,12345,north,26.0,15295.69,2023-02-22,north
+54,Customer 53,customer53@example.com,+234-803-1053,SOUTH,43.0,2007.99,2023-02-23,SOUTH
+55,Customer 54,customer54@example.com,+234-804-1054, East ,19.0,4023.36,2023-02-24, East 
+56,Customer 55,customer55@example.com,+234-805-1055,Nort,37.0,,2023-02-25,Nort
+57,Customer 56,customer56@example.com,+234-806-1056,North,45.0,19643.71,2023-02-26,North
+58,Customer 57,customer57@example.com,+234-807-1057,South,,391.68,2023-02-27,South
+59,Customer 58,customer58@example.com,,East,24.0,1824.23,2023-02-28,East
+60,Customer 59,customer59@example.com,+234-809-1059,West,61.0,1059.23,2023-03-01,West
+61,Customer 60,customer60@example.com,+234-800-1060,north,25.0,1563.12,2023-03-02,north
+62,Customer 61,customer61@example.com,+234-801-1061,SOUTH,64.0,3320.66,2023-03-03,SOUTH
+63,Customer 62,customer62@example.com,+234-802-1062, East ,52.0,2331.55,2023-03-04, East 
+64,Customer 63,customer63@example.com,+234-803-1063,Nort,31.0,2510.08,2023-03-05,Nort
+65,Customer 64,customer64@example.com,+234-804-1064,North,34.0,9296.33,2023-03-06,North
+66,Customer 65,customer65@example.com,12345,South,53.0,13297.5,2023-03-07,South
+67,Customer 66,customer66@example.com,+234-806-1066,East,67.0,,2023-03-08,East
+68,Customer 67,customer67@example.com,+234-807-1067,West,57.0,1171.77,2023-03-09,West
+69,Customer 68,bad_email_68,+234-808-1068,north,21.0,5560.67,2023-03-10,north
+70,Customer 69,,+234-809-1069,SOUTH,19.0,2220.87,2023-03-11,SOUTH
+71,Customer 70,customer70@example.com,+234-800-1070, East ,23.0,1466.25,2023-03-12, East 
+72,Customer 71,customer71@example.com,+234-801-1071,Nort,59.0,1749.85,2023-03-13,Nort
+73,Customer 72,customer72@example.com,+234-802-1072,North,21.0,1947.1,2023-03-14,North
+74,Customer 73,customer73@example.com,+234-803-1073,South,46.0,9441.46,2023-03-15,South
+75,Customer 74,customer74@example.com,+234-804-1074,East,35.0,734.51,2023-03-16,East
+76,Customer 75,customer75@example.com,+234-805-1075,West,43.0,6170.63,2023-03-17,West
+77,Customer 76,customer76@example.com,+234-806-1076,north,,4023.97,2023-03-18,north
+78,Customer 77,customer77@example.com,+234-807-1077,SOUTH,51.0,,2023-03-19,SOUTH
+79,Customer 78,customer78@example.com,12345, East ,27.0,2721.75,2023-03-20, East 
+80,Customer 79,customer79@example.com,+234-809-1079,Nort,53.0,1479.96,2023-03-21,Nort
+81,Customer 80,customer80@example.com,+234-800-1080,North,31.0,4727.49,2023-03-22,North
+82,Customer 81,customer81@example.com,+234-801-1081,South,48.0,425.58,2023-03-23,South
+83,Customer 82,customer82@example.com,+234-802-1082,East,65.0,25.99,2023-03-24,East
+84,Customer 83,customer83@example.com,+234-803-1083,West,32.0,4942.89,2023-03-25,West
+85,Customer 84,customer84@example.com,+234-804-1084,north,25.0,1080.06,2023-03-26,north
+86,Customer 85,bad_email_85,+234-805-1085,SOUTH,31.0,367.91,2023-03-27,SOUTH
+87,Customer 86,customer86@example.com,+234-806-1086, East ,40.0,2527.4,2023-03-28, East 
+88,Customer 87,customer87@example.com,,Nort,57.0,260.51,2023-03-29,Nort
+89,Customer 88,customer88@example.com,+234-808-1088,North,38.0,,2023-03-30,North
+90,Customer 89,customer89@example.com,+234-809-1089,South,33.0,140.03,2023-03-31,South
+91,Customer 90,customer90@example.com,+234-800-1090,East,62.0,4324.01,2023-04-01,East
+92,Customer 91,customer91@example.com,12345,West,35.0,2885.49,2023-04-02,West
+93,Customer 92,,+234-802-1092,north,64.0,5574.11,2023-04-03,north
+94,Customer 93,customer93@example.com,+234-803-1093,SOUTH,41.0,1988.62,2023-04-04,SOUTH
+95,Customer 94,customer94@example.com,+234-804-1094, East ,43.0,842.34,2023-04-05, East 
+96,Customer 95,customer95@example.com,+234-805-1095,Nort,,20042.91,2023-04-06,Nort
+97,Customer 96,customer96@example.com,+234-806-1096,North,62.0,9129.69,2023-04-07,North
+98,Customer 97,customer97@example.com,+234-807-1097,South,58.0,9845.04,2023-04-08,South
+99,Customer 98,customer98@example.com,+234-808-1098,East,46.0,1440.09,2023-04-09,East
+100,Customer 99,customer99@example.com,+234-809-1099,West,32.0,,2023-04-10,West
+101,Customer 100,customer100@example.com,+234-800-1100,north,62.0,1806.75,2023-04-11,north
+102,Customer 101,customer101@example.com,+234-801-1101,SOUTH,18.0,3851.03,2023-04-12,SOUTH
+103,Customer 102,bad_email_102,+234-802-1102, East ,42.0,1977.46,2023-04-13, East 
+104,Customer 103,customer103@example.com,+234-803-1103,Nort,24.0,8797.5,2023-04-14,Nort
+105,Customer 104,customer104@example.com,12345,North,26.0,1584.13,2023-04-15,North
+106,Customer 105,customer105@example.com,+234-805-1105,South,41.0,16798.14,2023-04-16,South
+107,Customer 106,customer106@example.com,+234-806-1106,East,18.0,3055.67,2023-04-17,East
+108,Customer 107,customer107@example.com,+234-807-1107,West,61.0,9226.53,2023-04-18,West
+109,Customer 108,customer108@example.com,+234-808-1108,north,25.0,1080.72,2023-04-19,north
+110,Customer 109,customer109@example.com,+234-809-1109,SOUTH,41.0,2649.65,2023-04-20,SOUTH
+111,Customer 110,customer110@example.com,+234-800-1110, East ,28.0,,2023-04-21, East 
+112,Customer 111,customer111@example.com,+234-801-1111,Nort,68.0,744.55,2023-04-22,Nort
+113,Customer 112,customer112@example.com,+234-802-1112,North,34.0,712.11,2023-04-23,North
+114,Customer 113,customer113@example.com,+234-803-1113,South,25.0,17456.19,2023-04-24,South
+115,Customer 114,customer114@example.com,+234-804-1114,East,,6269.23,2023-04-25,East
+116,Customer 115,,+234-805-1115,West,52.0,209.67,2023-04-26,West
+117,Customer 116,customer116@example.com,,north,50.0,2544.31,2023-04-27,north
+118,Customer 117,customer117@example.com,12345,SOUTH,22.0,2841.57,2023-04-28,SOUTH
+119,Customer 118,customer118@example.com,+234-808-1118, East ,59.0,6813.72,2023-04-29, East 
+120,Customer 119,bad_email_119,+234-809-1119,Nort,56.0,1444.15,2023-04-30,Nort
+121,Customer 120,customer120@example.com,+234-800-1120,North,58.0,1018.75,2023-05-01,North
+122,Customer 121,customer121@example.com,+234-801-1121,South,45.0,,2023-05-02,South
+123,Customer 122,customer122@example.com,+234-802-1122,East,24.0,2795.83,2023-05-03,East
+124,Customer 123,customer123@example.com,+234-803-1123,West,26.0,5831.78,2023-05-04,West
+125,Customer 124,customer124@example.com,+234-804-1124,north,25.0,299.78,2023-05-05,north
+126,Customer 125,customer125@example.com,+234-805-1125,SOUTH,29.0,12338.11,2023-05-06,SOUTH
+127,Customer 126,customer126@example.com,+234-806-1126, East ,51.0,2920.14,2023-05-07, East 
+128,Customer 127,customer127@example.com,+234-807-1127,Nort,50.0,1370.79,2023-05-08,Nort
+129,Customer 128,customer128@example.com,+234-808-1128,North,65.0,492.88,2023-05-09,North
+130,Customer 129,customer129@example.com,+234-809-1129,South,40.0,1009.76,2023-05-10,South
+131,Customer 130,customer130@example.com,12345,East,41.0,13637.24,2023-05-11,East
+132,Customer 131,customer131@example.com,+234-801-1131,West,54.0,5084.29,2023-05-12,West
+133,Customer 132,customer132@example.com,+234-802-1132,north,52.0,,2023-05-13,north
+134,Customer 133,customer133@example.com,+234-803-1133,SOUTH,,5351.75,2023-05-14,SOUTH
+135,Customer 134,customer134@example.com,+234-804-1134, East ,57.0,2860.61,2023-05-15, East 
+136,Customer 135,customer135@example.com,+234-805-1135,Nort,39.0,6547.39,2023-05-16,Nort
+137,Customer 136,bad_email_136,+234-806-1136,North,44.0,244.46,2023-05-17,North
+138,Customer 137,customer137@example.com,+234-807-1137,South,52.0,4173.98,2023-05-18,South
+139,Customer 138,,+234-808-1138,East,18.0,863.72,2023-05-19,East
+140,Customer 139,customer139@example.com,+234-809-1139,West,52.0,640.1,2023-05-20,West
+141,Customer 140,customer140@example.com,+234-800-1140,north,54.0,2091.84,2023-05-21,north
+142,Customer 141,customer141@example.com,+234-801-1141,SOUTH,64.0,481.45,2023-05-22,SOUTH
+143,Customer 142,customer142@example.com,+234-802-1142, East ,31.0,494.45,2023-05-23, East 
+144,Customer 143,customer143@example.com,12345,Nort,20.0,,2023-05-24,Nort
+145,Customer 144,customer144@example.com,+234-804-1144,North,18.0,19439.22,2023-05-25,North
+146,Customer 145,customer145@example.com,,South,22.0,963.86,2023-05-26,South
+147,Customer 146,customer146@example.com,+234-806-1146,East,43.0,86.55,2023-05-27,East
+148,Customer 147,customer147@example.com,+234-807-1147,West,31.0,7206.17,2023-05-28,West
+149,Customer 148,customer148@example.com,+234-808-1148,north,56.0,8223.07,2023-05-29,north
+150,Customer 149,customer149@example.com,+234-809-1149,SOUTH,44.0,2125.57,2023-05-30,SOUTH
+151,Customer 150,customer150@example.com,+234-800-1150, East ,26.0,3124.4,2023-05-31, East 
+152,Customer 151,customer151@example.com,+234-801-1151,Nort,32.0,5245.88,2023-06-01,Nort
+153,Customer 152,customer152@example.com,+234-802-1152,North,,246.26,2023-06-02,North
+154,Customer 153,bad_email_153,+234-803-1153,South,43.0,14893.96,2023-06-03,South
+155,Customer 154,customer154@example.com,+234-804-1154,East,59.0,,2023-06-04,East
+156,Customer 155,customer155@example.com,+234-805-1155,West,30.0,1511.57,2023-06-05,West
+157,Customer 156,customer156@example.com,12345,north,68.0,77.11,2023-06-06,north
+158,Customer 157,customer157@example.com,+234-807-1157,SOUTH,49.0,13547.98,2023-06-07,SOUTH
+159,Customer 158,customer158@example.com,+234-808-1158, East ,56.0,3476.15,2023-06-08, East 
+160,Customer 159,customer159@example.com,+234-809-1159,Nort,66.0,3875.88,2023-06-09,Nort
+161,Customer 160,customer160@example.com,+234-800-1160,North,69.0,5759.49,2023-06-10,North
+162,Customer 161,,+234-801-1161,South,49.0,4783.63,2023-06-11,South
+163,Customer 162,customer162@example.com,+234-802-1162,East,21.0,14402.35,2023-06-12,East
+164,Customer 163,customer163@example.com,+234-803-1163,West,47.0,14434.53,2023-06-13,West
+165,Customer 164,customer164@example.com,+234-804-1164,north,54.0,10094.52,2023-06-14,north
+166,Customer 165,customer165@example.com,+234-805-1165,SOUTH,40.0,,2023-06-15,SOUTH
+167,Customer 166,customer166@example.com,+234-806-1166, East ,56.0,8070.98,2023-06-16, East 
+168,Customer 167,customer167@example.com,+234-807-1167,Nort,62.0,5653.12,2023-06-17,Nort
+169,Customer 168,customer168@example.com,+234-808-1168,North,32.0,4259.16,2023-06-18,North
+170,Customer 169,customer169@example.com,12345,South,60.0,687.7,2023-06-19,South
+171,Customer 170,bad_email_170,+234-800-1170,East,46.0,8335.45,2023-06-20,East
+172,Customer 171,customer171@example.com,+234-801-1171,West,,8591.79,2023-06-21,West
+173,Customer 172,customer172@example.com,+234-802-1172,north,30.0,4916.69,2023-06-22,north
+174,Customer 173,customer173@example.com,+234-803-1173,SOUTH,49.0,8585.86,2023-06-23,SOUTH
+175,Customer 174,customer174@example.com,, East ,24.0,5270.37,2023-06-24, East 
+176,Customer 175,customer175@example.com,+234-805-1175,Nort,68.0,1157.67,2023-06-25,Nort
+177,Customer 176,customer176@example.com,+234-806-1176,North,39.0,,2023-06-26,North
+178,Customer 177,customer177@example.com,+234-807-1177,South,45.0,1207.74,2023-06-27,South
+179,Customer 178,customer178@example.com,+234-808-1178,East,19.0,2368.12,2023-06-28,East
+180,Customer 179,customer179@example.com,+234-809-1179,West,59.0,198.71,2023-06-29,West
+181,Customer 180,customer180@example.com,+234-800-1180,north,62.0,4815.0,2023-06-30,north
+182,Customer 181,customer181@example.com,+234-801-1181,SOUTH,23.0,2051.54,2023-07-01,SOUTH
+183,Customer 182,customer182@example.com,12345, East ,45.0,5331.54,2023-07-02, East 
+184,Customer 183,customer183@example.com,+234-803-1183,Nort,45.0,2433.89,2023-07-03,Nort
+185,Customer 184,,+234-804-1184,North,61.0,5722.45,2023-07-04,North
+186,Customer 185,customer185@example.com,+234-805-1185,South,61.0,2082.31,2023-07-05,South
+187,Customer 186,customer186@example.com,+234-806-1186,East,37.0,1510.22,2023-07-06,East
+188,Customer 187,bad_email_187,+234-807-1187,West,47.0,,2023-07-07,West
+189,Customer 188,customer188@example.com,+234-808-1188,north,28.0,5902.75,2023-07-08,north
+190,Customer 189,customer189@example.com,+234-809-1189,SOUTH,45.0,2141.14,2023-07-09,SOUTH
+191,Customer 190,customer190@example.com,+234-800-1190, East ,,13795.26,2023-07-10, East 
+192,Customer 191,customer191@example.com,+234-801-1191,Nort,56.0,199.87,2023-07-11,Nort
+193,Customer 192,customer192@example.com,+234-802-1192,North,50.0,2705.96,2023-07-12,North
+194,Customer 193,customer193@example.com,+234-803-1193,South,18.0,17144.98,2023-07-13,South
+195,Customer 194,customer194@example.com,+234-804-1194,East,44.0,3970.05,2023-07-14,East
+196,Customer 195,customer195@example.com,12345,West,69.0,2753.65,2023-07-15,West
+197,Customer 196,customer196@example.com,+234-806-1196,north,30.0,4202.67,2023-07-16,north
+198,Customer 197,customer197@example.com,+234-807-1197,SOUTH,58.0,4289.22,2023-07-17,SOUTH
+199,Customer 198,customer198@example.com,+234-808-1198, East ,20.0,,2023-07-18, East 
+200,Customer 199,customer199@example.com,+234-809-1199,Nort,56.0,683.05,2023-07-19,Nort
+201,Customer 200,customer200@example.com,+234-800-1200,North,23.0,1438.52,2023-07-20,North
+202,Customer 201,customer201@example.com,+234-801-1201,South,25.0,4343.98,2023-07-21,South
+203,Customer 202,customer202@example.com,+234-802-1202,East,44.0,10091.42,2023-07-22,East
+204,Customer 203,customer203@example.com,,West,26.0,4126.16,2023-07-23,West
+205,Customer 204,bad_email_204,+234-804-1204,north,54.0,1362.96,2023-07-24,north
+206,Customer 205,customer205@example.com,+234-805-1205,SOUTH,50.0,5694.75,2023-07-25,SOUTH
+207,Customer 206,customer206@example.com,+234-806-1206, East ,68.0,6733.61,2023-07-26, East 
+208,Customer 207,,+234-807-1207,Nort,59.0,1360.59,2023-07-27,Nort
+209,Customer 208,customer208@example.com,12345,North,61.0,2371.9,2023-07-28,North
+210,Customer 209,customer209@example.com,+234-809-1209,South,,,2023-07-29,South
+211,Customer 210,customer210@example.com,+234-800-1210,East,32.0,3431.47,2023-07-30,East
+212,Customer 211,customer211@example.com,+234-801-1211,West,49.0,2468.35,2023-07-31,West
+213,Customer 212,customer212@example.com,+234-802-1212,north,49.0,1766.51,2023-08-01,north
+214,Customer 213,customer213@example.com,+234-803-1213,SOUTH,41.0,526.72,2023-08-02,SOUTH
+215,Customer 214,customer214@example.com,+234-804-1214, East ,58.0,274.84,2023-08-03, East 
+216,Customer 215,customer215@example.com,+234-805-1215,Nort,69.0,15915.31,2023-08-04,Nort
+217,Customer 216,customer216@example.com,+234-806-1216,North,66.0,9391.27,2023-08-05,North
+218,Customer 217,customer217@example.com,+234-807-1217,South,66.0,2191.79,2023-08-06,South
+219,Customer 218,customer218@example.com,+234-808-1218,East,69.0,15709.68,2023-08-07,East
+220,Customer 219,customer219@example.com,+234-809-1219,West,29.0,5646.95,2023-08-08,West
+221,Customer 220,customer220@example.com,+234-800-1220,north,56.0,,2023-08-09,north
+222,Customer 221,bad_email_221,12345,SOUTH,19.0,3396.47,2023-08-10,SOUTH
+223,Customer 222,customer222@example.com,+234-802-1222, East ,20.0,434.79,2023-08-11, East 
+224,Customer 223,customer223@example.com,+234-803-1223,Nort,66.0,480.93,2023-08-12,Nort
+225,Customer 224,customer224@example.com,+234-804-1224,North,54.0,4612.06,2023-08-13,North
+226,Customer 225,customer225@example.com,+234-805-1225,South,66.0,4033.85,2023-08-14,South
+227,Customer 226,customer226@example.com,+234-806-1226,East,34.0,1195.91,2023-08-15,East
+228,Customer 227,customer227@example.com,+234-807-1227,West,66.0,14611.9,2023-08-16,West
+229,Customer 228,customer228@example.com,+234-808-1228,north,,7600.18,2023-08-17,north
+230,Customer 229,customer229@example.com,+234-809-1229,SOUTH,19.0,602.17,2023-08-18,SOUTH
+231,Customer 230,,+234-800-1230, East ,45.0,13363.11,2023-08-19, East 
+232,Customer 231,customer231@example.com,+234-801-1231,Nort,40.0,,2023-08-20,Nort
+233,Customer 232,customer232@example.com,,North,54.0,27522.09,2023-08-21,North
+234,Customer 233,customer233@example.com,+234-803-1233,South,49.0,287.46,2023-08-22,South
+235,Customer 234,customer234@example.com,12345,East,50.0,6678.68,2023-08-23,East
+236,Customer 235,customer235@example.com,+234-805-1235,West,18.0,3947.36,2023-08-24,West
+237,Customer 236,customer236@example.com,+234-806-1236,north,36.0,6118.01,2023-08-25,north
+238,Customer 237,customer237@example.com,+234-807-1237,SOUTH,19.0,17313.02,2023-08-26,SOUTH
+239,Customer 238,bad_email_238,+234-808-1238, East ,61.0,5824.24,2023-08-27, East 
+240,Customer 239,customer239@example.com,+234-809-1239,Nort,43.0,9068.92,2023-08-28,Nort
+241,Customer 240,customer240@example.com,+234-800-1240,North,49.0,10082.1,2023-08-29,North
+242,Customer 241,customer241@example.com,+234-801-1241,South,23.0,9115.66,2023-08-30,South
+243,Customer 242,customer242@example.com,+234-802-1242,East,49.0,,2023-08-31,East
+244,Customer 243,customer243@example.com,+234-803-1243,West,21.0,1258.85,2023-09-01,West
+245,Customer 244,customer244@example.com,+234-804-1244,north,28.0,2526.3,2023-09-02,north
+246,Customer 245,customer245@example.com,+234-805-1245,SOUTH,34.0,11123.35,2023-09-03,SOUTH
+247,Customer 246,customer246@example.com,+234-806-1246, East ,55.0,792.66,2023-09-04, East 
+248,Customer 247,customer247@example.com,12345,Nort,,3600.81,2023-09-05,Nort
+249,Customer 248,customer248@example.com,+234-808-1248,North,22.0,1327.83,2023-09-06,North
+250,Customer 249,customer249@example.com,+234-809-1249,South,69.0,4353.07,2023-09-07,South
+251,Customer 250,customer250@example.com,+234-800-1250,East,51.0,9943.93,2023-09-08,East
+252,Customer 251,customer251@example.com,+234-801-1251,West,23.0,10616.34,2023-09-09,West
+253,Customer 252,customer252@example.com,+234-802-1252,north,39.0,1350.42,2023-09-10,north
+254,Customer 253,,+234-803-1253,SOUTH,28.0,,2023-09-11,SOUTH
+255,Customer 254,customer254@example.com,+234-804-1254, East ,65.0,4481.08,2023-09-12, East 
+256,Customer 255,bad_email_255,+234-805-1255,Nort,33.0,2155.59,2023-09-13,Nort
+257,Customer 256,customer256@example.com,+234-806-1256,North,50.0,6158.11,2023-09-14,North
+258,Customer 257,customer257@example.com,+234-807-1257,South,26.0,3285.69,2023-09-15,South
+259,Customer 258,customer258@example.com,+234-808-1258,East,23.0,2373.98,2023-09-16,East
+260,Customer 259,customer259@example.com,+234-809-1259,West,33.0,6105.33,2023-09-17,West
+261,Customer 260,customer260@example.com,12345,north,46.0,1429.91,2023-09-18,north
+262,Customer 261,customer261@example.com,,SOUTH,20.0,2004.27,2023-09-19,SOUTH
+263,Customer 262,customer262@example.com,+234-802-1262, East ,37.0,2849.8,2023-09-20, East 
+264,Customer 263,customer263@example.com,+234-803-1263,Nort,53.0,1463.02,2023-09-21,Nort
+265,Customer 264,customer264@example.com,+234-804-1264,North,36.0,,2023-09-22,North
+266,Customer 265,customer265@example.com,+234-805-1265,South,43.0,4237.01,2023-09-23,South
+267,Customer 266,customer266@example.com,+234-806-1266,East,,6754.13,2023-09-24,East
+268,Customer 267,customer267@example.com,+234-807-1267,West,36.0,7287.77,2023-09-25,West
+269,Customer 268,customer268@example.com,+234-808-1268,north,37.0,8652.11,2023-09-26,north
+270,Customer 269,customer269@example.com,+234-809-1269,SOUTH,49.0,6817.02,2023-09-27,SOUTH
+271,Customer 270,customer270@example.com,+234-800-1270, East ,24.0,5713.44,2023-09-28, East 
+272,Customer 271,customer271@example.com,+234-801-1271,Nort,69.0,1355.81,2023-09-29,Nort
+273,Customer 272,bad_email_272,+234-802-1272,North,58.0,2555.99,2023-09-30,North
+274,Customer 273,customer273@example.com,12345,South,50.0,3247.71,2023-10-01,South
+275,Customer 274,customer274@example.com,+234-804-1274,East,57.0,432.65,2023-10-02,East
+276,Customer 275,customer275@example.com,+234-805-1275,West,56.0,,2023-10-03,West
+277,Customer 276,,+234-806-1276,north,35.0,2866.48,2023-10-04,north
+278,Customer 277,customer277@example.com,+234-807-1277,SOUTH,57.0,8100.2,2023-10-05,SOUTH
+279,Customer 278,customer278@example.com,+234-808-1278, East ,18.0,19061.04,2023-10-06, East 
+280,Customer 279,customer279@example.com,+234-809-1279,Nort,28.0,4059.71,2023-10-07,Nort
+281,Customer 280,customer280@example.com,+234-800-1280,North,45.0,1948.1,2023-10-08,North
+282,Customer 281,customer281@example.com,+234-801-1281,South,42.0,221.85,2023-10-09,South
+283,Customer 282,customer282@example.com,+234-802-1282,East,67.0,12927.61,2023-10-10,East
+284,Customer 283,customer283@example.com,+234-803-1283,West,40.0,12573.68,2023-10-11,West
+285,Customer 284,customer284@example.com,+234-804-1284,north,48.0,1458.38,2023-10-12,north
+286,Customer 285,customer285@example.com,+234-805-1285,SOUTH,,5943.96,2023-10-13,SOUTH
+287,Customer 286,customer286@example.com,12345, East ,59.0,,2023-10-14, East 
+288,Customer 287,customer287@example.com,+234-807-1287,Nort,52.0,908.9,2023-10-15,Nort
+289,Customer 288,customer288@example.com,+234-808-1288,North,24.0,1221.89,2023-10-16,North
+290,Customer 289,bad_email_289,+234-809-1289,South,33.0,1744.2,2023-10-17,South
+291,Customer 290,customer290@example.com,,East,43.0,27400.85,2023-10-18,East
+292,Customer 291,customer291@example.com,+234-801-1291,West,65.0,5968.88,2023-10-19,West
+293,Customer 292,customer292@example.com,+234-802-1292,north,69.0,2424.18,2023-10-20,north
+294,Customer 293,customer293@example.com,+234-803-1293,SOUTH,66.0,6679.92,2023-10-21,SOUTH
+295,Customer 294,customer294@example.com,+234-804-1294, East ,19.0,12340.5,2023-10-22, East 
+296,Customer 295,customer295@example.com,+234-805-1295,Nort,18.0,15934.76,2023-10-23,Nort
+297,Customer 296,customer296@example.com,+234-806-1296,North,65.0,298.03,2023-10-24,North
+298,Customer 297,customer297@example.com,+234-807-1297,South,29.0,,2023-10-25,South
+299,Customer 298,customer298@example.com,+234-808-1298,East,22.0,564.48,2023-10-26,East
+300,Customer 299,,12345,West,54.0,2044.81,2023-10-27,West
+4,Customer 3,customer3@example.com,+234-803-1003,West,32.0,6025.83,2023-01-04,West
+4,Customer 3,customer3@example.com,+234-803-1003,West,32.0,6025.83,2023-01-04,West
+51,Customer 50,customer50@example.com,+234-800-1050,East,31.0,10749.06,2023-02-20,East
